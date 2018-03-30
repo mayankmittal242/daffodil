@@ -76,7 +76,7 @@ router.post('/signup',async function(req,res){
              service : 'gmail',
              auth : {
              user: 'mayankmittal242@gmail.com',
-             pass: 'paromittal'
+             pass: ''
               }
              });
              
@@ -187,7 +187,7 @@ router.post('/resetmail',async function(req,res){
               service : 'gmail',
               auth : {
               user: 'mayankmittal242@gmail.com',
-              pass: 'paromittal'
+              pass: ''
               }
              });
              
